@@ -1,0 +1,14 @@
+body, html {
+  overflow-x: hidden;
+  min-width: 100%;
+  padding-top: 25px;
+}
+ul,ol,li,p {
+  margin: 0;
+}
+i {
+  font-style: normal;
+}
+ul,li,ol {
+  list-style: none;
+}

@@ -1,0 +1,170 @@
+.banner {
+  height: 180px;
+  background-color: #bfbfbf;
+}
+.proBox {
+  width: 100%;
+  background-color: #ccc;
+}
+.pro {
+  height: 180px;
+  line-height: 180px;
+  background-color: #fff;
+}
+.proBox .col-sm-6 {
+  padding: 0 10px;
+}
+
+
+.wrap {
+  width: 100%;
+  padding-top: 2rem;
+  margin-bottom: 20px;
+}
+.wrap>h3 {
+  font-size: 1.8rem;
+  margin: 4px;
+}
+.wrap>p {
+  font-size: 1rem;
+}
+.icoContainer {
+  margin-top: 3rem;
+}
+.icoContainer .row {
+  padding: 0 40px 0 10%;
+}
+.iconBox {
+  height: 100px;
+  line-height: 100px;
+  margin: 0 1%;
+  cursor: pointer;
+}
+.iconBox.logoActive {
+  color: blue;
+}
+.bgBlack {
+  height: 200px;
+  line-height: 200px;
+  /* background-color: #bfbfbf; */
+  margin-top: 20px;
+  padding: 0 10%;
+}
+.bgBlack .row {
+  background-color: #bfbfbf;
+}
+.infoWrap {
+  position: relative;
+  /* height: 300px; */
+  padding-bottom: 20px;  
+  color: #fff;
+  background-color: slategrey;
+}
+.infoTop {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+.infoTop>h3 {
+  font-size: 1.8rem;
+}
+.infoTop>p {
+  font-size: 1rem;
+}
+
+#myCarousel {
+  
+}
+
+.slide {
+  height: 210px;
+}
+.carousel-inner {
+  height: 100%;
+}
+.carousel-inner .item {
+  height: 100%;
+}
+
+.carousel-inner .item .picItem {
+  display: inline-block;
+  width: 23%;
+  height: 180px;
+  background-color: #fff;
+  color: #000;
+  margin: 20px 0;
+}
+.arrow {
+  position: absolute;
+  font-size: 40px;
+  top: 80px;
+  left: -10px;
+  background-color: transparent;
+  text-shadow: none;
+  color: #fff;
+  /* font-size: 20px; */
+} 
+.arrowR {
+  left: 100%;
+}
+
+/* .slideWrap {
+  position: relative;
+  width: 48%;
+  height: 140px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+.slide {
+  width: 2600px;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.infoWrap span {
+  font-size: 16px;
+  position: absolute;
+  top: 62%;
+  left: 14%;
+  left: 270px;
+}
+.infoWrap .iconRight {
+  position: absolute;
+  top: 62%;
+  left: 880px;
+  left: 80%;
+}
+
+.picBox {
+  width: 5%;
+  height: 140px;
+  float: left;
+  line-height: 140px;
+  margin-right: 0.36%;
+  color: #000;
+  background-color: #fff;
+}
+.picboxLast {
+  margin-right: 0;
+} */ 
+
+.typeWrap {
+  width: 50%;
+  margin-top: 20px;
+}
+.typeBox {
+  margin-bottom: 20px;
+}
+.typeImg {
+  height: 100px;
+  line-height: 100px;
+  background-color: #ccc;
+}
+.type {
+  height: 100px;
+  line-height: 100px;
+}
+.company {
+  color: #ccc;
+  margin-top: 80px;
+}
