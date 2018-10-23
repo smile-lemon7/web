@@ -1,15 +1,67 @@
+/* top banner */
 .banner {
-  height: 180px;
-  background-color: #bfbfbf;
+  position: relative;
+  width: 100%;
+  height: 480px;
+  background: url(./images/top_banner.png) no-repeat;
+  background-size: 100% 100%;
 }
+
+.bannerLogo {
+  width: 200px;
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  color: #fff;
+  text-align: center;
+}
+.bannerLogo h3 {
+  font-size: 2rem;
+}
+.bannerLogo p {
+  width: 100%;
+  height: 24px;
+  line-height: 24px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  color: #ccc;
+}
+.bannerImg {
+  position: absolute;
+  right: 22%;
+  bottom: 10%;
+  color: #ccc;
+}
+.bannerImg img {
+  width: 180px;
+  height: 180px;
+  margin-bottom: 2rem;
+}
+
+
 .proBox {
   width: 100%;
-  background-color: #ccc;
+}
+.thumbnail {
+  border: 0 none;
 }
 .pro {
-  height: 180px;
-  line-height: 180px;
+  height: 340px;
   background-color: #fff;
+  box-shadow: 2px 0 34px 1px #f6f6f6;
+}
+.pro img {
+  width: 152px;
+  height: 152px;
+}
+.pro h3 {
+  font-size: 1.8rem;
+}
+.pro p {
+  width: 100%;
+  padding: 0 20px;
+  margin-top: 30px;
+  text-align: center;
 }
 .proBox .col-sm-6 {
   padding: 0 10px;
@@ -27,6 +79,8 @@
 }
 .wrap>p {
   font-size: 1rem;
+  margin-top: 10px;
+  color: #666;
 }
 .icoContainer {
   margin-top: 3rem;
@@ -35,34 +89,41 @@
   padding: 0 40px 0 10%;
 }
 .iconBox {
-  height: 100px;
-  line-height: 100px;
   margin: 0 1%;
   cursor: pointer;
+  color: #777;
 }
 .iconBox.logoActive {
-  color: blue;
+  color: #2787ed;
+}
+.iconBox i {
+ font-size: 90px;
+ font-size: 5rem;
+  margin-bottom: 20px;
 }
 .bgBlack {
-  height: 200px;
-  line-height: 200px;
-  /* background-color: #bfbfbf; */
+  position: relative;
+  width: 80%;
+  height: 560px;
+  background-color: #f5f8fa;
   margin-top: 20px;
-  padding: 0 10%;
 }
-.bgBlack .row {
-  background-color: #bfbfbf;
+.bgBlack .row i {
+  font-size: 5rem;
+  color: #1296db;
 }
+
+
 .infoWrap {
   position: relative;
-  /* height: 300px; */
-  padding-bottom: 20px;  
+  height: 540px;
+  padding-top: 20px;
   color: #fff;
-  background-color: slategrey;
+  background: url(./images/center_banner.png) no-repeat;
 }
 .infoTop {
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 10px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 20px;
 }
 .infoTop>h3 {
   font-size: 1.8rem;
@@ -71,12 +132,9 @@
   font-size: 1rem;
 }
 
-#myCarousel {
-  
-}
-
 .slide {
   height: 210px;
+  margin-top: 100px;
 }
 .carousel-inner {
   height: 100%;
@@ -97,72 +155,32 @@
   position: absolute;
   font-size: 40px;
   top: 80px;
-  left: -10px;
+  left: 1%;
   background-color: transparent;
   text-shadow: none;
   color: #fff;
-  /* font-size: 20px; */
 } 
 .arrowR {
-  left: 100%;
+  left: 98%;
 }
-
-/* .slideWrap {
-  position: relative;
-  width: 48%;
-  height: 140px;
-  margin-top: 20px;
-  overflow: hidden;
-}
-.slide {
-  width: 2600px;
-  padding: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.infoWrap span {
-  font-size: 16px;
-  position: absolute;
-  top: 62%;
-  left: 14%;
-  left: 270px;
-}
-.infoWrap .iconRight {
-  position: absolute;
-  top: 62%;
-  left: 880px;
-  left: 80%;
-}
-
-.picBox {
-  width: 5%;
-  height: 140px;
-  float: left;
-  line-height: 140px;
-  margin-right: 0.36%;
-  color: #000;
-  background-color: #fff;
-}
-.picboxLast {
-  margin-right: 0;
-} */ 
 
 .typeWrap {
-  width: 50%;
+  width: 80%;
   margin-top: 20px;
 }
 .typeBox {
   margin-bottom: 20px;
 }
 .typeImg {
-  height: 100px;
-  line-height: 100px;
+  /* height: 190px; */
+  height: 290px;
+  line-height: 290px;
   background-color: #ccc;
 }
 .type {
-  height: 100px;
-  line-height: 100px;
+  /* height: 190px; */
+  height: 290px;
+  line-height: 290px;
 }
 .company {
   color: #ccc;
